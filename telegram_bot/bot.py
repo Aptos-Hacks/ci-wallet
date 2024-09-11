@@ -13,7 +13,7 @@ class Bot:
         await context.bot.send_photo(
             chat_id=update.effective_chat.id, 
             photo=open(photo_path, "rb"),
-            caption="""🎉 Introducing Tap Wallet - a Telegram-based wallet offering simplicity, security, and limitless earning potential within the Aptos ecosystem.""",
+            caption="""🎉 Introducing Tap Wallet - a Telegram-based wallet offering simplicity, security, and limitless earning potential within the Aptos Movement ecosystem.""",
             reply_markup=reply_markup
         )
         
